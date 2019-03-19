@@ -1,0 +1,80 @@
+html{
+	font-size: 62.5%
+}
+body{
+	color: #4c4c4c;
+    font-family: 'Raleway', sans-serif;
+    background-color: #C30017;
+}
+a,a:hover{
+	color: #fff
+}
+header, #contact-form, .footer{
+	padding: 3rem
+}
+.contact-form{
+	background-image: url('../images/digital-marketing.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-top: 3rem
+}
+header{
+	background: #fff
+}
+#contact-form{
+	background: #fff;
+	box-shadow: -6px 7px 18px 9px #8B0000;
+}
+.container{
+	margin-top: 1rem
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 3rem; 
+  background-color: #8B0000;
+  color: #fff
+}
+footer p{
+	line-height: 2.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.bigicon {
+    font-size: 2.5rem;
+    color: #C30017;
+}
+.btn-red{
+	border-radius: 0;
+	background: #C30017;
+	font-size: 1.6rem;
+	outline: none;
+	border: none;
+}
+.btn-red:hover,.btn-red:active, .btn-red:not(:disabled):not(.disabled):active{
+	background: #8B0000
+}
+label.error{
+	margin-top: 0.5rem;
+	color: red;
+	font-size: 1.2rem
+}
+.form-control{
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	color: #4c4c4c;
+}
+.confirmation-message {
+    color: #f0e68c;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background: #556B2F
+}
+@media (min-width: 300px) {
+    html{ font-size: 50%; }
+}
+@media (min-width: 768px) {
+    html { font-size: 62.5%; }
+}
+

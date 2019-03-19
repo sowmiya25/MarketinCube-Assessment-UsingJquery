@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MarketingCube</title>
+<link rel="stylesheet" type="text/css" href="vendors/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="vendors/resetcss/reset.css">
+<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+<link rel="stylesheet" type="text/css" href="vendors/fontawesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="vendors/fonts/raleway.css">
+</head>
+
+<body>
+<!-- Header -->
+<header>
+	<div class="d-flex">
+		<div class="header-logo ml-auto">
+			<img src="resources/images/MC-Logo.png" alt="MarketingCube" width="250" />
+		</div>
+	</div>
+</header>
+<!--Contact Form -->
+<section class="contact-form">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-7">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post" id="contact-form">
+                    <fieldset>
+                        <div class="form-group row">
+                            <span class="col-1 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-10 col-md-11">
+                                <input id="fname" name="fname" type="text" placeholder="First Name" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <span class="col-1 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-10 col-md-11">
+                                <input id="lname" name="lname" type="text" placeholder="Last Name" class="form-control"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-1 text-center"><i class="fa fa-envelope bigicon"></i></span>
+                            <div class="col-10 col-md-11">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-1 text-center"><i class="fa fa-map-marker bigicon"></i></span>
+                            <div class="col-10 col-md-11">
+                                <select id="state" name="state" class="form-control">
+                                	<option value="" disabled selected>Select State</option>
+							      	<option>NSW</option>
+							      	<option>QLD</option> 
+							      	<option>SA</option>
+							      	<option>TAS</option>
+							      	<option>VIC</option>
+							      	<option>WA</option>
+							      	<option>NT</option>
+							      	<option>ACT</option>
+							     </select>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg btn-red" id="submit">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--Footer-->
+<footer class="text-center">
+	<p class="disclaimer">&copy; 2019 Marketing Cube Pty Ltd. All Rights Reserved. ABN: 64 162 615 269</p>
+	<p class="disclaimer">Head Office: Lilyvale Cottage, 176 Cumberland Street, The Rocks, Sydney, NSW, Australia, 2000. Phone: <a href="tel:+6182440007">+61 (0)2 8244 0007</a> </p>
+</footer>
+</body>
+
+<script type="text/javascript" src="vendors/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="vendors/jquery-form-validation/jquery.validate.min.js"></script>
+<script type="text/javascript" src="resources/scripts/index.js"></script>
+</html>
